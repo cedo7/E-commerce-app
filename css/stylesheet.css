@@ -1,0 +1,257 @@
+ body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+ }
+
+.red {
+  color: #a94442;
+}
+
+
+.modal-header {
+  background-color: #343a40;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.btn-primary:hover {
+  color: #343a40;
+  background-color: #fff;
+}
+
+.panel-danger > .panel-footer {
+  background-color: #f2dede;
+}
+
+div ul.pagination > li > a {
+  border-radius: 50% !important;
+  margin: 0 5px;
+}
+
+.pagination>.active>a, .pagination>.active>a:hover {
+  background-color: #343a40;
+}
+
+.container {
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-top: 50px;
+}
+
+.panel-body {
+  padding: 0 !important;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  letter-spacing: 2px;
+  font-size: 17px;
+  color: #fff;
+  /*background-color: #007bff;*/
+  background-color: #0069d9;
+  border-color: #007bff;
+  /*background-color: #343a40;*/
+  transition: box-shadow 0.5s;
+}
+
+.navbar:hover{
+  box-shadow: 5px 30px 50px rgba(0,0,0, .2);
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  background-color: #007bff;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: #007bff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #007bff;
+  color: #fff;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix + .container {
+  padding-top: 90px;
+}
+
+.affix + .container-fluid {
+  padding-top: 90px;
+}
+
+
+/* Changed the height of the navbar */
+.navbar-brand, .navbar-nav > li >  a {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+.navbar-nav .form-control, .navbar-nav .btn-default {
+  height: 44px;
+  margin-top: 10px;
+}
+
+.navbar-nav .form-control {
+  min-width: 300px;
+}
+
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+  margin-bottom: 0;
+  min-height: 200px;
+  /*background-color: #484851;*/
+  background-color: #343a40;
+  color: #9d9d9d;
+}
+
+.noPaddingTop {
+  padding-top: 0 !important;
+  margin-top: 30px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #343a40;
+  padding: 25px;
+}
+
+/* ADD TRANSITION BOX-SHADOW */
+.panel {
+  border-radius:0 !important;
+  transition: box-shadow 0.5s;
+}
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+/* ADD CART ATTRIBUTES */
+.img-cart {
+  min-height: 50px;
+  min-width: 50px;
+}
+
+ul.dropdown-cart{
+    min-width:500px;
+}
+ul.dropdown-cart li .item{
+  letter-spacing: 0 !important;
+  display:block;
+  padding:3px 10px;
+  margin: 3px 0;
+  font-size: 17px;
+}
+ul.dropdown-cart li .item:hover{
+  background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+  float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left div.item-info{
+  float:left;
+}
+ul.dropdown-cart li .item-left div.item-info{
+  margin-left:10px;
+}
+ul.dropdown-cart li .item-left div.item-info span{
+  display:block;
+}
+ul.dropdown-cart li .item-right{
+  float:right;
+}
+ul.dropdown-cart li .item-right button{
+  margin-top:14px;
+}
+
+.btn-link:hover{
+  color: #333 !important;
+}
+
+.filter > .btn, .disabled {
+  cursor: default;
+  opacity: 1;
+  border-radius: 0;
+}
+
+.filter {
+  /* JUST FOR FILTERS */
+}
+
+
+/* CAROUSEL PROD.PHP */
+#quote-carousel
+{
+  padding: 0 10px 30px 10px;
+}
+
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+
+}
+
+#quote-carousel .carousel-control.left
+{
+  left: -12px;
+}
+
+#quote-carousel .carousel-control.right
+{
+  right: -12px;
+}
+
+#quote-carousel .carousel-indicators
+{
+  top: auto;
+  bottom: 0px;
+}
+
+#quote-carousel .carousel-indicators li
+{
+  background: grey;
+}
+#quote-carousel .carousel-indicators .active
+{
+  background: darkgrey;
+}
+
+#quote-carousel img
+{
+  margin-left: 85%;
+  width: 350px;
+  height: 400px;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
